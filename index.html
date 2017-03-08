@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ewert|Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="container">
+        <div id="Header">
+            <h1>Crystal<br>Collector</h1>
+        </div>
+        <div id="Description">
+            <p> You will be given a random number at the start of the game.<br><br>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br><br>Win the game by matching your total score with the random number. You lose the game if your total score goes above the random number.<br><br>The value of each crystal is hidden from you until you click on it.<br><br>Each time a new round starts, the game will change the values of each crystal.</p>
+        </div>
+        <div id="randomnumber">
+        <p>Random Number:&nbsp<span id="gameNumber"></span></p>
+        </div>
+        <div id="winlosscounter">
+        <p>Wins:&nbsp<span id="winCounter"></span></p>
+        <p>Losses:&nbsp<span id="lossCounter"></span></p>
+        </div>
+        <div id="crystals">
+        <img src="assets/images/gem1.png" style="height: 130px; width: 130px;">
+        <img src="assets/images/gem2.png" style="height: 130px; width: 130px;">
+        <img src="assets/images/gem3.png" style="height: 130px; width: 130px;">
+        <img src="assets/images/gem4.png" style="height: 130px; width: 130px;">
+        </div>
+        <div id="userscore">
+        <p>Your Total Score Is:&nbsp<span id="totalScore"></span></p>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+<!-- Potential Background Music:
+https://www.youtube.com/watch?v=e4lY0P0bfOo 
+https://www.youtube.com/watch?v=tfjhJDttabw
+-->
+</html>

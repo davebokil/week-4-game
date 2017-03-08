@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    /*    font-family: 'Ewert', cursive;*/
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    border: dashed;
+    border-color: orange;
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+p {
+    color: black;
+    background-color: orange;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+#Header {
+    text-align: center;
+}
+
+#Description,
+#randomnumber,
+#winlosscounter,
+#userscore {
+    border: dashed;
+    border-color: orange;
+    text-align: center;
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#crystals {
+    text-align: center;
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
