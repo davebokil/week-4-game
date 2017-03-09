@@ -4,15 +4,8 @@ body {
 
 h1 {
     color: orange;
-    /*    font-family: 'Ewert', cursive;*/
     font-family: 'Press Start 2P', cursive;
     font-size: 50px;
-    border: dashed;
-    border-color: orange;
-    margin: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
 }
 
 p {
@@ -24,18 +17,34 @@ p {
 
 #Header {
     text-align: center;
+    border: dashed;
+    border-color: orange;
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
-#Description,
-#randomnumber,
-#winlosscounter,
-#userscore {
+#Description {
     border: dashed;
     border-color: orange;
     text-align: center;
-    margin: 50px;
+    margin: 180px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#randomnumber,
+#winlosscounter,
+#userscore  {
+    border: dashed;
+    border-color: black;
+    text-align: center;
+    margin: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+    padding: 10px;
 }
 
 #crystals {
@@ -44,3 +53,4 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
