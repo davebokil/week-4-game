@@ -26,10 +26,10 @@ $(document).ready(function() {
 		gameNumber = Math.floor(Math.random() * (120 - 19 + 1) ) + 19;
 		console.log(gameNumber);
 
-		// Initiate Total Score
+		// Initiate Total Score at each new round
 		totalScore = 0;
 
-		// assign random numbers between 1 and 12 to the 4 crystals
+		// assign random numbers between 1 and 12 to the 4 crystals each round
 		var arr = [];
 		for (var i = 0, l = 4; i < l; i++) {
 		    arr.push(Math.floor(Math.random() * (12 - 1 + 1) ) + 1)
@@ -49,6 +49,7 @@ $(document).ready(function() {
 		$("#totalScore").text(totalScore);
 	}
 
+	// function to calculate a win or loss. updates win/loss counter
 	function roundComplete(){
 		//Win
 		if (gameNumber === totalScore){
@@ -96,33 +97,12 @@ $(document).ready(function() {
 
 // ********* PROCESS *********
 // -------------------------------------------------------------------------
+		// Background Music Intiate
+		var audio = new Audio('assets/music/br.mp3');
+		audio.play();
+		audio.loop = true;
+		audio.volume = 0.2;
+
+		// Start a round
 		startGame();
 });
-
-
-
-// function roundComplete(){
-// 	//Win
-// 	if (gameNumber.toString() == totalScore.toString()){
-// 		winCount++;
-//   		$("#winCounter").text(winCount);
-//   		console.log(gameNumber + "on the round complete")
-// 		startGame()	
-// 	}
-// 	//Loss
-// 	else if (totalScore.toString() > gameNumber.toString()) {
-// 		lossCount++
-// 		$("#lossCounter").text(lossCount);
-// 		startGame()
-// 	}
-// }
-
-
-// Background Music Intiate
-// var audio = new Audio('assets/music/love.mp3');
-// audio.play();
-// audio.loop = true;
-// Potential Background Music:
-// https://www.youtube.com/watch?v=e4lY0P0bfOo 
-// https://www.youtube.com/watch?v=tfjhJDttabw
-// https://www.youtube.com/watch?v=l3zS35MAe0E

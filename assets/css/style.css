@@ -19,7 +19,7 @@ p {
     text-align: center;
     border: dashed;
     border-color: orange;
-    margin: 90px;
+    margin: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -29,7 +29,7 @@ p {
     border: dashed;
     border-color: orange;
     text-align: center;
-    margin: 70px;
+    margin: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -40,7 +40,7 @@ p {
     border: dashed;
     border-color: black;
     text-align: center;
-    margin: 400px;
+    margin: 350px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: orange;
@@ -49,8 +49,8 @@ p {
 
 #crystals {
     text-align: center;
-    margin: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    margin: 130px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 
+}
